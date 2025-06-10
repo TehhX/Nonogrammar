@@ -10,4 +10,4 @@ list(TRANSFORM SRC PREPEND "src/")
 list(TRANSFORM SRC APPEND ".c")
 
 add_executable(${PROJECT_NAME} ${SRC})
-target_include_directories(${PROJECT_NAME} PRIVATE "inc/")
+target_include_directories(${PROJECT_NAME} PRIVATE "src/")
