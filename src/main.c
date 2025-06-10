@@ -5,5 +5,5 @@
 #include <nonogrammar/nonogrammar.h>
 
 int main() {
-    return 0;
+    
 }

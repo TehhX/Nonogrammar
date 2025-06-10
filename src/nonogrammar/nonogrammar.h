@@ -11,5 +11,6 @@
 
 #include <nonogrammar/nonogram.h>
 #include <nonogrammar/read_write.h>
+#include <nonogrammar/projections.h>
 
 #endif

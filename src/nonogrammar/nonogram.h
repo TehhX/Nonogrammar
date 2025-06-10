@@ -13,7 +13,8 @@
 typedef struct {
     size_t width;
     size_t height;
-    char *fill;
+
+    char **fillArr;
 } Nonogram;
 
 // Creates a Nonogram, returns handle.
